@@ -3,7 +3,7 @@ package stepdef;
 import io.cucumber.java.en.Then;
 import page.HomePage;
 
-public class HomeStepDef extends BaseTest{
+public class HomeStepDef extends BaseTest {
 
     HomePage homePage;
 
