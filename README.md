@@ -35,27 +35,27 @@ Ikuti langkah-langkah berikut untuk menyiapkan proyek ini di mesin lokal Anda:
 
 🧪 Struktur Proyek
 
-│── src 
-│   └── test
-│       ├── java
-│       │   ├── page                    # Page Object Models (POM)
-│       │   │   ├── HomePage.java
-│       │   │   └── LoginPage.java
-│       │   ├── stepdef                 # Step Definitions
-│       │   │   ├── BaseTest.java
-│       │   │   ├── CucumberHooks.java
-│       │   │   ├── HomeStepDef.java
-│       │   │   ├── LoginStepDef.java
-│       │   │   └── CucumberTest.java
-│       └── resources
-│           └── features               # Feature Files (BDD)
-│               └── login.feature
-├── .gitignore                          # File untuk mengecualikan file tertentu dari git
-├── build.gradle                        # File konfigurasi Gradle
-├── gradlew                             # Wrapper untuk Gradle (Linux/Mac)
-├── gradlew.bat                         # Wrapper untuk Gradle (Windows)
-├── config.properties                   # File konfigurasi proyek
-└── README.md                           # Dokumentasi proyek
+    │── src 
+    │   └── test
+    │       ├── java
+    │       │   ├── page                    # Page Object Models (POM)
+    │       │   │   ├── HomePage.java
+    │       │   │   └── LoginPage.java
+    │       │   ├── stepdef                 # Step Definitions
+    │       │   │   ├── BaseTest.java
+    │       │   │   ├── CucumberHooks.java
+    │       │   │   ├── HomeStepDef.java
+    │       │   │   ├── LoginStepDef.java
+    │       │   │   └── CucumberTest.java
+    │       └── resources
+    │           └── features               # Feature Files (BDD)
+    │               └── login.feature
+    ├── .gitignore                          # File untuk mengecualikan file tertentu dari git
+    ├── build.gradle                        # File konfigurasi Gradle
+    ├── gradlew                             # Wrapper untuk Gradle (Linux/Mac)
+    ├── gradlew.bat                         # Wrapper untuk Gradle (Windows)
+    ├── config.properties                   # File konfigurasi proyek
+    └── README.md                           # Dokumentasi proyek
 
 📋 Contoh Penulisan Feature File (Cucumber)
     Feature: Login Feature
