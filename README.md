@@ -1,20 +1,20 @@
-Automation Testing Project
+    Automation Testing Project
+    
+    Proyek ini adalah automation testing untuk aplikasi web menggunakan Java, Selenium, Cucumber, dan Gradle.
+    
+    🧰 Teknologi yang Digunakan
+    
+    Java - Bahasa pemrograman utama
+    
+    Selenium WebDriver - Untuk mengotomasi web
+    
+    Cucumber - Framework untuk penulisan tes berbasis BDD (Behavior Driven Development)
+    
+    Gradle - Untuk manajemen dependensi dan build automation
 
-Proyek ini adalah automation testing untuk aplikasi web menggunakan Java, Selenium, Cucumber, dan Gradle.
+    🚀 Cara Instalasi
 
-🧰 Teknologi yang Digunakan
-
-Java - Bahasa pemrograman utama
-
-Selenium WebDriver - Untuk mengotomasi web
-
-Cucumber - Framework untuk penulisan tes berbasis BDD (Behavior Driven Development)
-
-Gradle - Untuk manajemen dependensi dan build automation
-
-🚀 Cara Instalasi
-
-Ikuti langkah-langkah berikut untuk menyiapkan proyek ini di mesin lokal Anda:
+    Ikuti langkah-langkah berikut untuk menyiapkan proyek ini di mesin lokal Anda:
 1.  Clone Repository
     git clone https://github.com/taufik000achmad/SeleniumCucumberGradle
     cd nama-repo
@@ -57,12 +57,12 @@ Ikuti langkah-langkah berikut untuk menyiapkan proyek ini di mesin lokal Anda:
     ├── config.properties                   # File konfigurasi proyek
     └── README.md                           # Dokumentasi proyek
 
-📋 Contoh Penulisan Feature File (Cucumber)
-    Feature: Login Feature
-    Scenario: Login dengan kredensial valid
-    Given User membuka halaman login
-    When User memasukkan username dan password yang valid
-    Then User berhasil masuk ke halaman dashboard
+    📋 Contoh Penulisan Feature File (Cucumber)
+        Feature: Login Feature
+        Scenario: Login dengan kredensial valid
+        Given User membuka halaman login
+        When User memasukkan username dan password yang valid
+        Then User berhasil masuk ke halaman dashboard
 
     Kontak
     Jika Anda memiliki pertanyaan, silakan ajukan issue atau hubungi saya secara langsung.
