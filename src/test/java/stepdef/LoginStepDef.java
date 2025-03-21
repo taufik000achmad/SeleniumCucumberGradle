@@ -11,7 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import page.LoginPage;
-import java.BaseTest;
+import stepdef.BaseTest;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
