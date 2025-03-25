@@ -9,9 +9,7 @@ on:
 
 jobs:
   run-automation-test:
-  runs-on: ubuntu-latest
- 
-
+    runs-on: ubuntu-latest
     steps:
     # download repo
     - uses: actions/checkout@v4
